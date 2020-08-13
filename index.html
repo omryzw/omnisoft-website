@@ -9,7 +9,10 @@
     <meta name="description" content="Software Development , website design company zimbabwe , harare, mobile Development company in zimbabwe harare">
 
     <title>Omnisoft Computers | Website and Software Development </title>
-
+    <<!-- IE -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- other browsers -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
     <!-- Icon -->
@@ -314,17 +317,17 @@
         <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.3s">   
           <div class="col-lg-7 col-md-12 col-sm-12">
             <div class="contact-block">
-              <form id="contactForm" action="https://decima.appspot.com/mail" method="post">
+              <form id="contactForm">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+                      <input type="text" class="form-control" id="contactName" name="contactName" placeholder="Name" required data-error="Please enter your name">
                       <div class="help-block with-errors"></div>
                     </div>                                 
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" placeholder="Email" id="email" class="form-control" name="phone" required data-error="Please enter your email or phone number">
+                      <input type="text" placeholder="Email" id="contactEmail" class="form-control" name="contactEmail" required data-error="Please enter your email or phone number">
                       <div class="help-block with-errors"></div>
                     </div> 
                   </div>
@@ -333,11 +336,11 @@
                   </div>
                   <div class="col-md-12">
                     <div class="form-group"> 
-                      <textarea class="form-control" id="message" placeholder="Your Message" rows="7" data-error="Write your message" required></textarea>
+                      <textarea class="form-control" id="enquiryMessage" name="enquiryMessage" placeholder="Your Message" rows="7" data-error="Write your message" required></textarea>
                       <div class="help-block with-errors"></div>
                     </div>
                     <div class="submit-button text-left">
-                      <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                      <button class="btn btn-common" id="form-submit" type="submit">Send Message</button>
                       <div id="msgSubmit" class="h3 text-center hidden"></div> 
                       <div class="clearfix"></div> 
                     </div>
